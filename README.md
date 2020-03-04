@@ -29,6 +29,7 @@ That respectively:
     z = 1; initialize top, bottom, left and right;
   </div>
   <div>
+  <pre>
   <b>while z < N*N do</b>
          <div style="margin-left: 40px">
            <pre>
@@ -43,6 +44,7 @@ That respectively:
            </pre>
          </div>
        <b>End while</b>
+  <pre>
   </div>
 <b>End</b>
  
