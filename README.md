@@ -13,5 +13,14 @@ That respectively:
   <li>
     take the array A, the top, left and right as parameters and iterates through top row from left to right to fill the row. z is a number     between 1 and N*N as stated in the algorithm
   </li>
+  <li>
+    take the array A, the bottom, left and right as parameters and iterates through bottom row from right to left to fill the row. z is a number between 1 and N*N as stated in the algorithm
+  </li>
+  <li>
+    take the array A, the top, bottom and right as parameters and iterates through right column from top to bottom to fill the column. z is a number     between 1 and N*N as stated in the algorithm
+  </li>
+  <li>
+    take the array A, the top, bottom and left as parameters and iterates through left column from bottom to top to fill the column. z is a number     between 1 and N*N as stated in the algorithm
+  </li>
 </ol>
 <h2>How to run the code in Pelles C</h2>
