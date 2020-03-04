@@ -31,7 +31,7 @@ That respectively:
   <div>
   <b>while z < N*N do</b>
          <div style="margin-left: 40px">
-            call FillRowForward(A, top, left, right, z);<br>
+           <p style="margin-top: 20px;">call FillRowForward(A, top, left, right, z);</p><br>
             increment top by 1;<br>
             call FillColumnDownward(A, bottom, left, right, z);<br>
             decrement right by 1;<br>
