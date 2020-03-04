@@ -31,14 +31,14 @@ That respectively:
   <div>
   <b>while z < N*N do</b>
          <div style="margin-left: 40px">
-           <pre>call FillRowForward(A, top, left, right, z);</pre><br>
+           <pre>call FillRowForward(A, top, left, right, z);<br>
             increment top by 1;<br>
             call FillColumnDownward(A, bottom, left, right, z);<br>
             decrement right by 1;<br>
             call FillRowBackward(A, top, bottom, right, z);<br>
             decrement bottom by 1;<br>
             call FillColumnUpward(A, top, bottom, left, z);<br>
-            increment left by 1;<br>
+            increment left by 1;<br></pre>
          </div>
        <b>End while</b>
   </div>
