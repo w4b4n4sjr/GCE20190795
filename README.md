@@ -29,18 +29,18 @@ That respectively:
     z = 1; initialize top, bottom, left and right;
   </div>
   <div>
-    while z < N*N do
+  <b>while z < N*N do</b>
          <div>
-            call FillRowForward(A, top, left, right, z);
-            increment top by 1;
-            call FillColumnDownward(A, bottom, left, right, z);
-            decrement right by 1;
-            call FillRowBackward(A, top, bottom, right, z);
-            decrement bottom by 1;
-            call FillColumnUpward(A, top, bottom, left, z);
-            increment left by 1;
+            call FillRowForward(A, top, left, right, z);<br>
+            increment top by 1;<br>
+            call FillColumnDownward(A, bottom, left, right, z);<br>
+            decrement right by 1;<br>
+            call FillRowBackward(A, top, bottom, right, z);<br>
+            decrement bottom by 1;<br>
+            call FillColumnUpward(A, top, bottom, left, z);<br>
+            increment left by 1;<br>
          </div>
-       End while
+       <b>End while</b>
   </div>
 <b>End</b>
-<h2>How to run the code in Pelles C</h2>
+
