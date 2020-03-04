@@ -1,5 +1,5 @@
 #include <stdio.h>
-#define N 4
+#define N 5
 int left=0, top=0, right=N-1, bottom=N-1, x=1;
 void set_x(int);
 int get_x();
