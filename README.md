@@ -24,6 +24,7 @@ That respectively:
   </li>
 </ol>
 <h2>Algorithm: Spiral Order</h2>
+<code>
 <b>Begin</b>
   <div>
     z = 1; initialize top, bottom, left and right;
@@ -43,4 +44,5 @@ That respectively:
        <b>End while</b>
   </div>
 <b>End</b>
+    </code>
 
