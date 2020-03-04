@@ -30,7 +30,7 @@ That respectively:
   </div>
   <div>
   <b>while z < N*N do</b>
-         <div>
+         <div style="margin-left: 40px">
             call FillRowForward(A, top, left, right, z);<br>
             increment top by 1;<br>
             call FillColumnDownward(A, bottom, left, right, z);<br>
